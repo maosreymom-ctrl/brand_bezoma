@@ -1,0 +1,517 @@
+/* =========================================
+   GLOBAL
+========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5efdf;
+    color: #163b59;
+}
+
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+.navbar {
+    background: #075b88;
+    padding: 15px 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-brand {
+    color: white !important;
+    font-size: 29px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #bdeaff !important;
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.hero {
+    min-height: 700px;
+    padding: 150px 0 90px;
+    background: #f5efdf;
+}
+
+.logo {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 72px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    color: #075b88;
+}
+
+.hero h2 {
+    font-size: 28px;
+    color: #163b59;
+    margin: 15px 0;
+}
+
+.hero p {
+    max-width: 620px;
+    color: #666;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   SHOP BUTTON
+========================================= */
+
+.shop-btn {
+    display: inline-block;
+
+    margin-top: 15px;
+
+    padding: 13px 35px;
+
+    border-radius: 30px;
+
+    background: #075b88;
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.shop-btn:hover {
+    background: #043f60;
+    color: white;
+    transform: translateY(-2px);
+}
+
+
+/* =========================================
+   CEO
+========================================= */
+
+.ceo-card {
+    background: white;
+
+    padding: 35px 25px;
+
+    border-radius: 25px;
+
+    text-align: center;
+
+    box-shadow:
+        0 12px 35px rgba(0, 0, 0, 0.12);
+}
+
+.ceo-image {
+    width: 190px;
+    height: 190px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 6px solid #d9f1ff;
+
+    margin-bottom: 20px;
+}
+
+.ceo-card h3 {
+    color: #075b88;
+
+    font-size: 28px;
+
+    font-weight: 800;
+}
+
+.ceo-card h5 {
+    color: #087bb5;
+
+    margin-bottom: 15px;
+}
+
+.ceo-card p {
+    color: #777;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+}
+
+
+/* =========================================
+   ABOUT
+========================================= */
+
+.about {
+    padding: 90px 0;
+
+    background: white;
+}
+
+.about h2 {
+    color: #075b88;
+
+    font-size: 42px;
+
+    font-weight: 800;
+
+    margin-bottom: 20px;
+}
+
+.about p {
+    max-width: 750px;
+
+    margin: auto;
+
+    color: #666;
+
+    line-height: 1.8;
+
+    font-size: 16px;
+}
+
+
+/* =========================================
+   PRODUCTS
+========================================= */
+
+.products {
+    padding: 90px 0;
+
+    background: #f5efdf;
+}
+
+.page-two {
+    background: white;
+}
+
+.section-title {
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    color: #075b88;
+
+    font-size: 42px;
+
+    font-weight: 800;
+}
+
+.section-title p {
+    color: #777;
+}
+
+
+/* =========================================
+   PRODUCT CARD
+========================================= */
+
+.product-card {
+    height: 100%;
+
+    background: white;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 8px 25px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 18px 40px rgba(0, 0, 0, 0.15);
+}
+
+
+/* =========================================
+   PRODUCT IMAGE
+========================================= */
+
+.product-img {
+    width: 100%;
+
+    height: 240px;
+
+    object-fit: cover;
+
+    display: block;
+
+    background: #d9f1ff;
+}
+
+
+/* =========================================
+   PRODUCT INFORMATION
+========================================= */
+
+.product-info {
+    padding: 22px;
+}
+
+.product-info small {
+    color: #087bb5;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 1px;
+}
+
+.product-info h3 {
+    color: #163b59;
+
+    font-size: 20px;
+
+    font-weight: 700;
+
+    margin: 8px 0;
+}
+
+.product-info p {
+    color: #777;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+
+    min-height: 45px;
+}
+
+.product-info h4 {
+    color: #075b88;
+
+    font-size: 23px;
+
+    font-weight: 800;
+
+    margin: 15px 0;
+}
+
+
+/* =========================================
+   BUY BUTTON
+========================================= */
+
+.buy-btn {
+    width: 100%;
+
+    padding: 11px;
+
+    border: none;
+
+    border-radius: 30px;
+
+    background: #075b88;
+
+    color: white;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.buy-btn:hover {
+    background: #043f60;
+}
+
+
+/* =========================================
+   PAGINATION
+========================================= */
+
+.pagination {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    margin-top: 60px;
+}
+
+.pagination a {
+    text-decoration: none;
+
+    padding: 10px 18px;
+
+    background: white;
+
+    color: #075b88;
+
+    border: 1px solid #075b88;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+}
+
+.pagination a:hover,
+.pagination a.active {
+    background: #075b88;
+
+    color: white;
+}
+
+
+/* =========================================
+   CONTACT
+========================================= */
+
+.contact {
+    padding: 90px 0;
+
+    background: #f5efdf;
+}
+
+.contact h2 {
+    color: #075b88;
+
+    font-size: 42px;
+
+    font-weight: 800;
+}
+
+.contact p {
+    color: #666;
+
+    margin: 20px 0;
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+footer {
+    background: #075b88;
+
+    color: white;
+
+    padding: 50px 0;
+}
+
+footer h3 {
+    font-size: 30px;
+
+    font-weight: 900;
+
+    letter-spacing: 3px;
+}
+
+footer p {
+    margin: 8px 0;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+
+    .hero {
+        text-align: center;
+    }
+
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ceo-card {
+        margin-top: 50px;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 576px) {
+
+    .hero {
+        padding-top: 120px;
+    }
+
+    .hero h1 {
+        font-size: 45px;
+    }
+
+    .hero h2 {
+        font-size: 22px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .section-title h2 {
+        font-size: 32px;
+    }
+
+    .about h2 {
+        font-size: 32px;
+    }
+
+    .contact h2 {
+        font-size: 32px;
+    }
+
+    .product-img {
+        height: 210px;
+    }
+
+    .ceo-image {
+        width: 160px;
+        height: 160px;
+    }
+
+}
