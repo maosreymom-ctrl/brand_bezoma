@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="[https://maosreymom-ctrl.github.io/brand_bezoma/](https://maosreymom-ctrl.github.io/brand_bezoma/)">
+
+  <!-- ទំព័រដើម index.html -->
+  <url>
+    <loc>https://maosreymom-ctrl.github.io/brand_bezoma/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- ទំព័រ index1.html -->
+  <url>
+    <loc>https://maosreymom-ctrl.github.io/brand_bezoma/index1.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
