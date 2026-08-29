@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://maosreymom-ctrl.github.io/brand_bezoma/sitemap.xml
